@@ -76,6 +76,7 @@ a {
 }
 
 .learnMoreButton {
+    color: #E5E7EB;
     margin-top: 20px;
     background-color: #3882f6;
     border: none;
@@ -117,4 +118,31 @@ a {
 .memeExampleText {
     text-align: center;
     font-size: 18px;
+}
+
+.quoteBox {
+    margin-top: 20px;
+    background-color: #E5E7EB;
+    padding-bottom: 50px;
+}
+
+.subQuoteBox {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quoteer {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
 }
