@@ -52,6 +52,7 @@ a {
 }
 
 .mainTitle {
+    font-weight: bolder;
     font-size: 48px;
     color: #f9faf8;
 }
@@ -80,4 +81,35 @@ a {
     border: none;
     border-radius: 5%;
     padding: 10px;
+}
+.mainInfoBox {
+    background-color: white;
+}
+.subInfoBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.IBTopPart {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.memeExamples {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 2000px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.memeExample {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 5%;
 }
