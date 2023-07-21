@@ -100,11 +100,11 @@ a {
     color: #1f2937;
 }
 .memeExamples {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
     max-width: 2000px;
-    flex-grow: 1;
     flex-wrap: wrap;
 }
 .memeExample {
@@ -112,4 +112,9 @@ a {
     height: 150px;
     border: 5px solid #3882f6;
     border-radius: 5%;
+}
+
+.memeExampleText {
+    text-align: center;
+    font-size: 18px;
 }
