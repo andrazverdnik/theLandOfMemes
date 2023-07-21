@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+.mainColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.subHeader {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+
+.headerLogo {
+    margin-left: 100px;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.headerLinks {
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.headerLink {
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subTitleBox {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.mainTitleBox {
+    background-color: #1F2937;
+    padding-top: 50px;
+}
+
+.mainTitle {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.suprisedPikachu {
+    max-height: 200px;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.suprisedPikachuText {
+    margin-top: 10px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.mTBLeft {
+    margin-top: -10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.learnMoreButton {
+    margin-top: 20px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5%;
+    padding: 10px;
+}
