@@ -147,10 +147,6 @@ a {
     font-weight: bold;
 }
 
-.ctoBox {
-    
-}
-
 .innerCtoBox {
     display: flex;
     flex-direction: row;
