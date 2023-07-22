@@ -146,3 +146,52 @@ a {
     font-size: 20px;
     font-weight: bold;
 }
+
+.ctoBox {
+    
+}
+
+.innerCtoBox {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    background-color: #3882f6;
+    border-radius: 3%;
+}
+
+.ctoHead {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 100px;
+}
+
+.ctoText {
+    margin-left: 100px;
+    margin-top: -10px;
+    color: #E5E7EB;
+    font-size: 18;
+    font-weight: lighter;
+}
+
+.ctoButton {
+    background-color: #3882f6;
+    border-radius: 5%;
+    border: 1px solid #E5E7EB;
+    color: #E5E7EB;
+    width: 100px;
+}
+.ctoLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctoRight {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
